@@ -1,0 +1,181 @@
+{
+    "Catagories": [
+        {
+            "name": "Personal Work",
+            "works": [
+                {
+                    "name": "Temporary Forever",
+                    "desc": "A binaural study of sound through the lens of virtual object-oriented ontology. Worlds dynamically created and driven by external noises. Rendered with real-time raytracing.",
+                    "link": [
+                        "https://vimeo.com/414935057"
+                    ],
+                    "label": [
+                        "vimeo"
+                    ],
+                    "images": [
+                        "./tempforever/1.jpg",
+                        "./tempforever/3.jpg",
+                        "./tempforever/2.jpg"
+                    ]
+                },
+                {
+                    "name": "Entropy",
+                    "desc": "A 3D video synthesizer that uses gravity fields to recycle. System controlled by live audio input and MIDI interface.",
+                    "link": [
+                        "https://vimeo.com/353128411",
+                        "https://vimeo.com/346878279"
+                    ],
+                    "label": [
+                        "vimeo",
+                        "vimeo"
+                    ],
+                    "images": [
+                        "./entropysys/1.jpg",
+                        "./entropysys/2.jpg",
+                        "./entropysys/3.jpg"
+                    ]
+                },
+                {
+                    "name": "malleabiMIDI",
+                    "desc": "An audio-visual composition that contorts immaterial and sound. Sequenced in real-time with a drum machine.",
+                    "link": ["https://vimeo.com/328047394"],
+                    "label": ["vimeo"],
+                    "images": [
+                        "./midi/1.jpg",
+                        "./midi/2.jpg"
+                    ]
+                },
+                {
+                    "name": "Unnatural Disasters",
+                    "link": [
+                        "https://vimeo.com/252213012",
+                        "http://cyland.org/lab/cyfest11-weather-forecast-exhibition-opens-in-new-york/"
+                    ],
+                    "label": [
+                        "vimeo",
+                        "CYLAND"
+                    ],
+                    "desc": "A 9 person 27-screen collaborative video work exhibited for CYFEST 11 at The Made in NY Media Center in Dumbo, Brooklyn.",
+                    "images": [
+                        "./cyf/1.jpg"
+                    ]
+                },
+                {
+                    "name": "Big Yellow Laptop",
+                    "link": [
+                        "https://youtu.be/OKH4hWftalM",
+                        "https://file.org.br/led_sp_2018/tess-adams-michael-lee/?lang=pt"
+                    ],
+                    "label": [
+                        "youtube",
+                        "FILE"
+                    ],
+                    "desc": "Single channel video collaboration with Tess Adams. Exhibited on a giant pixel display at the 2018 FILE festival LED show in São Paulo, Brazil.",
+                    "images": [
+                        "./byl/1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Development",
+            "works": [
+                {
+                    "name": "Aerobanquets by Mattia Casalegno",
+                    "link": [
+                        "https://www.aerobanquets.com/",
+                        "https://www.nytimes.com/2020/01/06/dining/virtual-reality-food-aerobanquets-rmx.html",
+                        "https://www.washingtonpost.com/news/voraciously/wp/2019/12/11/this-virtual-reality-dining-experience-is-trippy-and-might-be-the-future-of-restaurants/",
+                        "https://www.bloomberg.com/news/features/2019-09-19/virtual-reality-meals-come-to-james-beard-house-with-adda-chef",
+                        "http://www.mattiacasalegno.net/",
+                        "https://www.rahinyc.com/",
+                        "https://www.jamesbeard.org/"
+
+                    ],
+                    "label": [
+                        "aerobanquets",
+                        "NYTimes",
+                        "Washington Post",
+                        "Bloomberg",
+                        "Mattia Casalegno",
+                        "Rahi",
+                        "James Beard Foundation"
+                    ],
+                    "desc": "Served as the main developer for a mixed-reality immersive gastronomy dining experience by Mattia Casalegno at the James Beard House. Worked on programing interactions, handtracking, shaders, locally networked virtual reality, and haptic UI/UX interfaces for staff. Previously exhibited at Soho House in NYC, ISEA 2019's FoodHack ACT Festival in Gwangju South Korea, and at the Chronus Art Center in Shanghai.",
+                    "images": [
+                        "./aero/2.jpg",
+                        "./aero/3.jpg",
+                        "./aero/4.jpg"
+                    ]
+                },
+                {
+                    "name": "Portraits in Landscape by Carla Gannis",
+                    "desc": "Sound development for 3-channel video artwork Portraits in Landscape by Carla Gannis. Used also in the documentation and promotions for a silent iteration at Times Square's Midnight Moment. Exhibited at Governors Island NYC through Harvestworks as well as the Carl & Marilynn Thoma Art Foundation in Santa Fe with TRANSFER.",
+                    "link": [
+                        "https://www.youtube.com/watch?v=_N_MLm_fKDo",
+                        "http://www.harvestworks.org/aug-4-oct-21-portraits-in-landscapes-by-carla-gannis/",
+                        "http://carlagannis.com/"
+                    ],
+                    "label": [
+                        "Times Square Midnight Moment",
+                        "Harvestworks",
+                        "Carla Gannis"
+                    ],
+                    "images": [
+                        "./carla/1.jpg",
+                        "./carla/2.jpg",
+                        "./carla/3.jpg"
+                    ]
+                },
+                {
+                    "name": "Sum'n Lyte 3 by ADRIIIAN",
+                    "desc": "Created a series of audio-reactive visual promotions for upcoming album Sum'n Lyte 3, by ADRIIIAN.",
+                    "link": ["https://vimeo.com/444084452",
+                            "https://www.instagram.com/sunsetbullyvard/"
+                    ],
+                    "label": [
+                        "vimeo",
+                        "ADRIIIAN"
+                    ],
+                    "images": [
+                        "./sl/4.png",
+                        "./sl/1.jpg",
+                        "./sl/3.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Live Performances",
+            "works": [
+                {
+                    "name": "livecode.nyc",
+                    "desc": "Performed as an audio-visual duo with Sean Lee. Programmed various real-time video systems to control with MIDI interfaces and sequencers. Performances at Eyebeam, Performance Space 122 with Babycastles, and Secret Project Robot.",
+                    "link": ["https://youtu.be/EEvuVo8wGhU",
+                        "https://youtu.be/PmK9b9r1Bno?t=499",
+                        "https://technical.ly/brooklyn/2018/04/12/inside-algorithmically-generated-dance-party-bushwick-art-space/",
+                        "https://livecode.nyc/"
+                    ],
+                    "label": ["Secret Project Robot", "Eyebeam", "technical.ly", "LiveCode.NYC"
+                    ],
+                    "images": [
+                        "./lcnyc/1.jpg",
+                        "./lcnyc/2.jpg"
+                    ]
+                },
+                {
+                    "name": "Bonfire",
+                    "desc": "Created and performed live visuals as well as produced online promotional content for BONFIRE, an annual outdoor music festival in East New York.",
+                    "link": ["https://youtu.be/GNWvj-tM-uw","https://youtu.be/Yho1AJVPdGo"
+                    ],
+                    "label": ["youtube", "youtube"],
+                    "images": [
+                        "./bf/1.jpg",
+                        "./bf/2.jpg",
+                        "./bf/3.jpg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,25 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Box from './Box';
+import Ml from './mllogo';
+import Bubbles from './Bubbles';
+import data from './catalog.json';
+import styled, { css } from 'styled-components'
+import Hello from './hello';
 
+
+
+const catagories = data.Catagories;
+let currentTime = new Date();
+const Page = styled.div`
+  
+  overflow: hidden;
+  
+  @media (orientation: landscape) {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+`;
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Page><Ml /><Hello/>
+      {catagories.map((n, i) =>
+        (<Box
+          catname={n.name}
+          workname={n.works}
+        />))}
+      <p style={{ textAlign: "center", fontSize: "15px", color: "#f0f0f0" }}>&copy; {currentTime.getFullYear()} Michael Lee</p>
+    </Page>
   );
 }
 
