@@ -4,6 +4,25 @@
             "name": "Personal Work",
             "works": [
                 {
+                    "name": "3D Modeling",
+                    "desc": "Maromi Doll from Paranoia Agent",
+                    
+                    "images": [
+                        "./3d1/1.jpg"
+                       
+                    ]
+                },
+                {
+                    "name": "3D Modeling 2",
+                    "desc": "Blender adventures",
+                    
+                    "images": [
+                        "./3d2/1.jpg",
+                        "./3d2/2.png"
+                       
+                    ]
+                },
+                {
                     "name": "Temporary Forever",
                     "desc": "A binaural study of sound through the lens of virtual object-oriented ontology. Worlds dynamically created and driven by external noises. Rendered with real-time raytracing.",
                     "link": [
