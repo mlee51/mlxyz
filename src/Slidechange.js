@@ -36,13 +36,16 @@ vertical-align: top;
 display: inline-block;
 
 `;
-
+let mobile = false;
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  mobile = true;
+}
 
 export default class SlideChangeHooks extends React.Component {
 
   state = {
 
-    displayQuestions: false,
+    displayQuestions: !mobile,
     activeSlide: 0,
   };
 
@@ -63,7 +66,9 @@ export default class SlideChangeHooks extends React.Component {
     const settings = {
       dots: false,
       infinite: true,
-      speed: 500,
+      speed: 600,
+      autoplay: true,
+      autoplaySpeed: 4000,
       slidesToShow: 1,
       slidesToScroll: 1,
       beforeChange: (current, next) => this.setState({ activeSlide: next }),

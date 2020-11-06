@@ -53,7 +53,7 @@ function Bubbles(props) {
       },[]);*/
    
     return (
-        props.para ? <BubbleP  >{props.text}</BubbleP> :
+        props.para ? <BubbleP>{props.text}</BubbleP> :
         props.outline ? 
         <Bubble style={rstart} onClick={props.onClick} outline >
             {props.text}
