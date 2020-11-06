@@ -93,6 +93,23 @@
             "name": "Development",
             "works": [
                 {
+                    "name": "Antib0dy Club",
+                    "desc": "Created an infinite light tunnel for Antib0dy Club, a web-based open world video chatting platform centered around artistry, live performance, and inclusion. Developed shaders for webcam avatar displays, custom rooms, and other assets with OpenGL and three.js. Other responsibilities include programming and animating interactive splash pages.",
+                    "link": ["https://antib0dy.club/"
+                           
+                    ],
+                    "label": [
+                        "Antib0dy Club"
+                       
+                    ],
+                    "images": [
+                        "./ab/3.jpg",
+                        "./ab/2.jpg",
+                        "./ab/4.jpg",
+                        "./ab/5.jpg"
+                    ]
+                },
+                {
                     "name": "Aerobanquets by Mattia Casalegno",
                     "link": [
                         "https://www.aerobanquets.com/",
